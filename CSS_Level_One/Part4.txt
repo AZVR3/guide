@@ -1,0 +1,4 @@
+Take advantage of what google inspect has to offer!
+
+Use it to quickly check how your website
+would like with different variables

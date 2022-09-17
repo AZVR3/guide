@@ -1,0 +1,34 @@
+/* This is a comment */
+/* similar to <HTML>, <CSS> can also comment via [ctrl+/] */
+/* You can
+also comment
+multiple lines
+at once! */
+
+/* Example of CSS:
+selected tag{
+  proprty: value;
+} */
+
+h1{
+  color: red;
+}
+
+/* li{
+  color: green;
+} */
+
+/* Coloring with [rgb()] is also possible */
+li{
+  color: rgb(118, 235, 255);
+}
+
+/* Hexcodes are also an alternative! */
+p{
+  color: #CE76FF;
+}
+
+/* [rgba()] is the same as [rgb()] except with an <alpha> value */
+h4{
+  color: rgba(167, 255, 118, 0.5);
+}

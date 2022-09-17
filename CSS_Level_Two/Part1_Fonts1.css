@@ -1,0 +1,30 @@
+h1{
+  font-family: "Arial";
+}
+
+p{
+  font-family: cursive;
+}
+
+/* 1em=16px */
+/* 2em=32px */
+/* The default font size in HTML will most of the times be 16px */
+/* However, you can change this default ratio by changing the font-size of the element */
+body{
+  font-size: 20px;
+}
+
+#two{
+  font-size: 1.0em;
+}
+/* The purpose of [em] is to allow identical elements to have different ratios */
+/* It is ideal to avoid having the [p] element be bigger than your heading */
+
+p{
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+}

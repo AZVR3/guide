@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Arial";
+}
+
+p {
+  font-family: 'Silkscreen', cursive;
+}
+
+#two {
+  font-family: 'GreatVibesRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* List of useful websites for fonts in HTML */
+/* https://fonts.google.com/ */
+/* https://fontlibrary.org/ */
+/* https://www.cssfontstack.com/ */

@@ -1,0 +1,46 @@
+/* All {classes} and {ids} must be unique to themselves */
+/* [.] must be used in front of the class when being called */
+.firstDiv{
+  color:blue;
+}
+
+.secondDiv{
+  color:red;
+}
+
+/* [#] must be used in front of the id when being called */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* [*] is used when selecting all elements on a page */
+/* When being used, it will override as many elements as possible.
+However, an {id} is an exception to this. */
+/* *{
+  color: black;
+} */
+
+/* You can give conditions to the elements that are being called,
+This is called adjancent siblings */
+/* You can also write different styles in one line */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* descendant selector */
+/* It grabs all elements within a specified element */
+li a{
+  color:red;
+}
+
+/* You can give further conditions to descendant selectors */
+/* Example below shows that it will color any element blue
+if they have the corresponding link. */
+li a[href="www.npr.org"]{
+  color:blue;
+  border: 5px solid orange;
+}
+
+/* Useful link for noting other <CSS> combinators */
+/* https://www.w3schools.com/css/css_combinators.asp */
